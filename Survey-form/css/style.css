@@ -29,3 +29,12 @@ input {
     flex-direction: column;
     margin-bottom: 1rem;
 }
+
+button {
+    background-color: #37af65;
+    color: #f3f3f3;
+    border: none;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-top: 1rem;
+}
