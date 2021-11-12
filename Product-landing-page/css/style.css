@@ -1,0 +1,11 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.nav-links {
+    display: flex;
+    justify-items: center;
+    list-style: none;
+}
