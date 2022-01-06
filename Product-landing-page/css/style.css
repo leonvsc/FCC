@@ -1,3 +1,9 @@
+@import "https://fonts.googleapis.com/css?family=Lato:400,700";
+
+body {
+    font-family: lato, sans-serif;
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -84,4 +90,20 @@
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     cursor: pointer;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    max-width: 20rem;
+    background-color: #dddddd;
+}
+
+.footer-list {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer-item {
+    margin-right: 3rem;
 }
