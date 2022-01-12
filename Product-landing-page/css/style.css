@@ -45,10 +45,20 @@ body {
     cursor: pointer;
 }
 
+.flexbox {
+    display: flex;
+    flex-direction: column;
+}
+
 .section-description {
     display: flex;
     flex-direction: column;
     max-width: 45rem;
+}
+
+.icon {
+    display: flex;
+    color: orange;
 }
 
 .cards {
@@ -93,17 +103,32 @@ body {
 }
 
 .footer {
-    display: flex;
-    flex-direction: column;
-    max-width: 20rem;
+    width: 70rem;
     background-color: #dddddd;
+    margin-top: 2rem;
+    padding-right: 1rem;
 }
 
 .footer-list {
     display: flex;
     justify-content: flex-end;
+    margin: 0;
+    margin-top: 1rem;
 }
 
 .footer-item {
-    margin-right: 3rem;
+    padding: 0.5rem;
+    list-style-type: none;
+}
+
+.footer-item > a {
+    text-decoration: none;
+    color: black;
+}
+
+.copyright {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.5rem;
+    opacity: 70%;
 }
